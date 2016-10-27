@@ -1,0 +1,55 @@
+html,
+body {
+    background-color: #bada55;
+    font-family: "Bebas Neue", Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+	text-align: center;
+}
+
+.container {
+    margin: 15px;
+}
+
+.racing {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 75%;
+}
+
+.title {
+    font-size: 20px;
+}
+
+.racing-pill {
+    width: 100%;
+    height: 20%;
+}
+
+.racing-pill-lane {
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+
+.racing-pill-name {
+    float: right;
+    width: 50%;
+    height: 100%;
+}
+
+.on-deck {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 25%;
+}
+
+.on-deck-pill {
+    width: 19%;
+    height: 100%;
+    display: inline-block;
+}
